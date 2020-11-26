@@ -1,0 +1,35 @@
+{
+  "name": "node.js-rest-api-using-mongodb",
+  "version": "1.0.0",
+  "description": "Node.js Basic REST API using Express with MongoDB",
+  "main": "server.js",
+  "dependencies": {
+    "busboy-body-parser": "^0.3.2",
+    "connect-busboy": "^0.0.2",
+    "core-js": "^2.6.11",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "express-routes-mapper": "^1.1.0",
+    "fund": "^1.0.0",
+    "graphql": "^15.3.0",
+    "graphsql": "^0.0.0",
+    "helmet": "^4.1.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.10.15",
+    "mongoose-paginate": "^5.0.3",
+    "mongoose-paginate-v2": "^1.3.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "heroku-postbuild": "npm install"
+  },
+  "engines": {
+    "node": "8.10.0"
+  },
+  "author": "AndieSpace",
+  "license": "ISC"
+}
